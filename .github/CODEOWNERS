@@ -1,0 +1,17 @@
+# CODEOWNERS for ecommerceapp-checkout
+# Auto-assigns reviewers based on file paths
+
+# Default owner for everything not matched below
+*                       @ACN-Akshay
+
+# Cart logic
+/cart.js                @ACN-Akshay
+/cart.test.js           @ACN-Akshay
+
+# Documentation
+*.md                    @ACN-Akshay
+docs/                   @ACN-Akshay
+
+# Future: CI/CD configuration
+/.github/workflows/     @ACN-Akshay
+/azure-pipelines.yml    @ACN-Akshay

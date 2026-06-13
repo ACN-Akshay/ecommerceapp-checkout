@@ -32,7 +32,7 @@ function removeFromCart(cart, itemId) {
         // If the quantity is 1, remove the item from the cart
         updatedCart.splice(existingItemIndex, 1);
     }
-    return updatedCart;
+    return null;  // INTENTIONAL BREAK for CI gate test
 }
 
 module.exports = {

@@ -1,0 +1,28 @@
+{
+  "name": "ecommerceapp-checkout",
+  "version": "1.0.0",
+  "description": "Checkout module for EcommerceApp — integrated with Azure DevOps Boards\r Working on cart functionality — see AB#5",
+  "main": "server.js",
+ "scripts": {
+    "start": "node server.js",
+    "test": "node cart.test.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ACN-Akshay/ecommerceapp-checkout.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ACN-Akshay/ecommerceapp-checkout/issues"
+  },
+  "homepage": "https://github.com/ACN-Akshay/ecommerceapp-checkout#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

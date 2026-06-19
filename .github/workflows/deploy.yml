@@ -38,5 +38,5 @@ jobs:
       - name: Deploy to Azure App Service
         uses: azure/webapps-deploy@v3
         with:
-          app-name: ecommerceapp-checkout-aksha
+          app-name: ecommerceapp-checkout-akshay
           package: .
